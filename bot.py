@@ -35,22 +35,22 @@ Merhaba Botu Gruplarınıza Ekleyin ! Reklam vermek icin yazın
     link_preview=False,
     buttons=(
        [
-        Button.url(' support', 'https://t.me/sohbetf'),
-        Button.url('iletisim', 'https://t.me/sohbetf')
+        Button.url(' support', 'https://t.me/bot_destek'),
+        Button.url('iletisim', 'https://t.me/bot_destek')
     ],
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "COMMANDS:@all,/cancel. @sohbetf @all : Tüm Kisileri Etiketler. /cancel : durdur @sohbetf"
+  helptext = "COMMANDS:@all,/cancel. @bot_destek @all : Tüm Kisileri Etiketler. /cancel : durdur @bot_destek"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url(' support', 'https://t.me/sohbetf'),
-        Button.url('iletisim', 'https://t.me/sohbetf')
+        Button.url(' support', 'https://t.me/bot_destek'),
+        Button.url('iletisim', 'https://t.me/bot_destek')
       ]
     )
   )
