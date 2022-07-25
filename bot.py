@@ -21,7 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-"""Etiket Botumuz Suanda Aktif @sohbetf
+"""Etiket Botumuz Suanda Aktif @bot_destek
 Merhaba Botu Gruplarınıza Ekleyin ! Reklam vermek icin yazın
 *𝐇𝐄𝐘! ,*
 ┏━━━━━━━━━━━━━━━━
